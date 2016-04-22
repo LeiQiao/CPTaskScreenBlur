@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "CPTaskScreenBlur"
   s.version      = "0.0.1"
-  s.summary      = "后台模糊"
+  s.summary      = "auto blur your application on task list screen"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   使程序置于后台时变模糊的功能
+                   auto blur your application on task list screen
                    DESC
 
   s.homepage     = "https://github.com/LeiQiao/CPTaskScreenBlur"
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :svn => "https://github.com/LeiQiao/CPTaskScreenBlur.git", :tag => s.version.to_s, :submodules => true }
+  s.source       = { :git => "https://github.com/LeiQiao/CPTaskScreenBlur.git", :tag => s.version.to_s, :submodules => true }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
