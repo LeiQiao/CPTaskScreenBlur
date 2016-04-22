@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :svn => "https://github.com/LeiQiao/CPTaskScreenBlur", :tag => s.version.to_s, :submodules => true }
+  s.source       = { :svn => "https://github.com/LeiQiao/CPTaskScreenBlur.git", :tag => s.version.to_s, :submodules => true }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
