@@ -9,7 +9,7 @@
 支持ARC
 
 # Installation
-`pod 'CPTaskScreenBlur',     :git => 'https://github.com/LeiQiao/CPTaskScreenBlur'`
+`pod 'CPTaskScreenBlur', '~0.0.1'`
 
 # Usage
 `+(void) enableAutoBlur:(BOOL)autoBlur inWindow:(UIWindow*)window;`<br/>
